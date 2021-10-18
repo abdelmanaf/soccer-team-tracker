@@ -5,10 +5,10 @@
 
   <% if (user?.profile.avatar) { %>
     <div>
-      <img 
+      <a href="/profiles"> <img 
         src="<%= user.profile.avatar %>" 
         alt="<%= user.profile.name %> avatar"
-      >
+      ></a>
     </div>
   <% } %>
     <hr>
