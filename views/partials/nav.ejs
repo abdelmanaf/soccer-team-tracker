@@ -3,51 +3,49 @@
   <% } %>
 </head>
 <body>
-  <div>
     <% if (user) { %>
       <a href="/auth/logout">
         <button type="submit">Logout</button>
       </a>
-      <div>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#">Soccer-Tracker</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Add team</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">All team</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">Favorites</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/profiles">Users</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="/profiles">Profile</a>
-                </li>
+       
+      <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Soccer-Tracker</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Add team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">All team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Favorites</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/profiles">Users</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/profiles">Profile</a>
+              </li>
 
-              </ul>
-          
-            </div>
+            </ul>
+        
           </div>
-        </nav>
-      </div>
-
-      
-
+        </div>
+      </nav>
+     
     <% } else { %>
-      <a href="/auth/google" class="siwg-link">
-        <button type="submit" class="siwg">
-          <img id="siwg-image" alt="Sign in with Google" />
-        </button>
-      </a>
-      <% } %>
+        <a href="/auth/google" class="siwg-link">
+          <button type="submit" class="siwg" id="google-icon">
+            <img id="siwg-image" alt="Sign in with Google" />
+          </button>
+        </a>
+    <% } %>
+        
 
-    </div>
+
+  

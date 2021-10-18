@@ -11,8 +11,6 @@ function index(req, res){
 }
 
 
-
-
 export{
     index
 }

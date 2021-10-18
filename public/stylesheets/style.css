@@ -55,3 +55,7 @@ h1 {
 .nav-item:last-child .nav-link::after {
   content: "";
 }
+
+.google-icon{
+  text-align: center;
+}
