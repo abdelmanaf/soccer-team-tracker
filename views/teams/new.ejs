@@ -1,0 +1,34 @@
+<%- include('../partials/html-head') %>
+<%- include('../partials/nav') %>
+
+<main>
+    <h1><%= title %> </h1>
+    <form action="/teams" method="post">
+        <div class="mb-3">
+            <label class="form-label">Name: </label>
+            <input type="text" name="name" class="form-control" id="formGroupExampleInput">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Players: </label>
+            <input type="text" name="player" class="form-control" id="formGroupExampleInput" placeholder="Enter players separete by comma">
+        </div>
+        <label class="form-label">Win last game: </label> <br>
+        <select name="">
+            <option value="">true</option>
+            <option value="">false</option>
+        </select>
+        <div class="mb-3">
+            <label class="form-label">Score: </label>
+            <input type="text" name="score" class="form-control" id="formGroupExampleInput">
+        </div>
+        <button type="submit">Add team</button>
+    </form>
+</main>
+<%- include('../partials/footer') %>
+
+
+
+
+
+
+
