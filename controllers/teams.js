@@ -19,7 +19,7 @@ function newTeam(req, res){
 function create(req, res){
     Team.create(req.body)
         .then(result => {
-            res.redirect('/teams/index')
+            res.redirect('/teams');
         })
         .catch(err => console.log(err));
 }
