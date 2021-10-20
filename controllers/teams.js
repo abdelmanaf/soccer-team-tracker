@@ -12,7 +12,7 @@ function index(req, res){
 
 function newTeam(req, res){
     res.render('teams/new', {
-        title: 'Add a team'
+        title: 'Add a team',
     })
 }
 
@@ -24,9 +24,16 @@ function create(req, res){
         .catch(err => console.log(err));
 }
 
+function deleteBook(req, res){
+    Team.findByIdAndDelete(req.params.id,)
+        .then(result => res.redirect('/teams'))
+        .catch(err => console.log(err));
+}
+
 
 export{
     index,
     newTeam as new,
-    create
+    create,
+    deleteBook as delete
 }

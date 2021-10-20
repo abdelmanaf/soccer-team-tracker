@@ -3,6 +3,22 @@
 
 <main>
     <h1><%= title %> </h1>
+
+  <hr>
+  <h2>Bienvenue | Soccer-team-tracker</h2>
+  <% teams.forEach((team) => { %>
+
+    <h3><%= team.name %></h3>
+    <h3><%= team.players %></h3>
+    <h3><%= team.score %></h3>
+
+    <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
+      <button type="submit">Delete</button>
+    </form>
+
+ <% }) %>
+  
+
 </main>
 
 <%- include('../partials/footer') %>
