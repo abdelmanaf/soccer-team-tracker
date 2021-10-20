@@ -2,23 +2,34 @@
 <%- include('../partials/nav') %>
 
 <main>
-    <h1><%= title %> </h1>
-
+  <h1><%= title %></h1>
   <hr>
-  <h2>Bienvenue | Soccer-team-tracker</h2>
-  <% teams.forEach((team) => { %>
 
-    <h3><%= team.name %></h3>
-    <h3><%= team.players %></h3>
-    <h3><%= team.score %></h3>
+  <table id="list">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Players</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% teams.forEach((team) => { %>
+      <tr>
+        <td><%= team.name %></td>
+        <td><%= team.players %></td>
+        <td><%= team.score %></td>
+        <td>
+          <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
+            <button type="submit">Delete</button>
+          </form>
+        </td>
+      </tr>
+      
 
-    <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
-      <button type="submit">Delete</button>
-    </form>
-
- <% }) %>
-  
-
+      <% }) %>
+    </tbody>
+  </table>
 </main>
 
 <%- include('../partials/footer') %>
