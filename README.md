@@ -12,6 +12,11 @@ You will have the ability to update you profile information since nowadays, ever
 
 There is a cool feature that will allow you to add a team name, players you know in the team, you have the choice to chose true or false depending if they have won their last game, and what was their last score.
 
+You can then see all the team you have chosen, edit the fields if you found your self made a mistake, or completely delete a team you are not interest on more.
+
+You also have the ability to see all users that are signed into the app, friens them and unfriend them.
+
+
 __Replace `<name-of-your-app-here>` in the commands below with the name of your app!__
 
 ```bash
