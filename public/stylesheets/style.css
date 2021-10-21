@@ -78,3 +78,16 @@ h1 {
   font-family: 'Permanent Marker', cursive;
   font-size: 20px;
 }
+
+.message {
+  font-family: 'Permanent Marker', cursive;
+  font-family: 'Rampart One', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  
+}
+
+hr {
+  display: -moz-inline-grid;
+}
