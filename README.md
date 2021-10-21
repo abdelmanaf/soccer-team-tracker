@@ -5,8 +5,12 @@ This app will help you for your sports tracker teams.
 Using this app will held you stay on top of the world! 🚀
 
 
+
 ## Trello link
 [Link to Trello](https://trello.com/b/9gxo99jo/unit2-project)
+
+
+
 
 
 ## App Usage
@@ -22,11 +26,13 @@ You can then see all the team you have chosen, edit the fields if you found your
 You also have the ability to see all users that are signed into the app, friens them and unfriend them.
 
 
+
 ![GitHub Logo](https://i.imgur.com/RrL7qhn.png)
 
 ![GitHub Logo](https://i.imgur.com/ha5GbFT.png)
 
 ![GitHub Logo](https://i.imgur.com/tO3bVUt.png)
+
 
 
 ## Technologies-used
@@ -38,6 +44,7 @@ You also have the ability to see all users that are signed into the app, friens 
 ### Mongoose
 
 ### JavaScript
+
 
 
 
