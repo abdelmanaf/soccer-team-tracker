@@ -4,11 +4,15 @@
 <main>
   <h1><%= title %></h1>
   <hr>
+  <h2>
+    <a href="/teams/new">Add another team</a>
+  </h2>
+  <hr>
 
-  <table id="list">
+  <table class="table">
     <thead>
       <tr>
-        <th>Name</th>
+        <th scope="col">Name</th>
         <th>Players</th>
         <th>Score</th>
       </tr>
@@ -19,6 +23,7 @@
         <td><%= team.name %></td>
         <td><%= team.players %></td>
         <td><%= team.score %></td>
+        <td><a href="#">DETAILS</a>
         <td>
           <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
             <button type="submit">Delete</button>

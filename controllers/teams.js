@@ -3,7 +3,6 @@ import { Team } from '../models/team.js'
 function index(req, res){
     Team.find({})
     .then(teams => {
-        console.log(teams);
         res.render('teams/index', {
             teams,
             title: 'THERE ARE YOUR TEAMS!!!'

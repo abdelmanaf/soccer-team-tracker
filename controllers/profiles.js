@@ -54,9 +54,41 @@ function show(req, res) {
     })
   }
 
+  function addFriend(req, res) {
+    Profile.findById(req.user.profile)
+    .then(profile => {
+      profile.friends.push(req.params.id)
+      profile.save()
+      .then(()=> {
+        res.redirect(`/profiles/${req.params.id}`)
+      })
+    })
+    .catch((err) => {
+      console.log(err)
+      res.redirect('/')
+    })
+  }
+  
+  function removeFriend(req, res) {
+    Profile.findById(req.user.profile)
+    .then(profile => {
+      profile.friends.remove({_id: req.params.id})
+      profile.save()
+      .then(()=> {
+        res.redirect(`/profiles/${req.params.id}`)
+      })
+    })
+    .catch(err => {
+      console.log(err)
+      res.redirect('/')
+    })
+  }
+
 export{
     index,
     show,
     edit,
-    update
+    update,
+    addFriend,
+    removeFriend
 }

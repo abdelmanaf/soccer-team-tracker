@@ -5,9 +5,11 @@ import * as profilesCtrl from "../controllers/profiles.js"
 const router = Router();
 
 router.get('/', isLoggedIn, profilesCtrl.index)
-router.get('/:id/edit', profilesCtrl.edit)
 router.get('/:id', isLoggedIn, profilesCtrl.show)
+router.get('/:id/edit', profilesCtrl.edit)
 router.get(':id', isLoggedIn, profilesCtrl.update)
+router.get("/:id/friend", isLoggedIn, profilesCtrl.addFriend)
+router.get("/:id/unfriend", isLoggedIn, profilesCtrl.removeFriend)
 
 
 
