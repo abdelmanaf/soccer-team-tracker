@@ -19,6 +19,28 @@ You also have the ability to see all users that are signed into the app, friens 
 
 ![GitHub Logo](https://i.imgur.com/RrL7qhn.png)
 
-<img src="https://i.imgur.com/L47kNOZ.png" alt="">
+![GitHub Logo](https://i.imgur.com/ha5GbFT.png)
+
+![GitHub Logo](https://i.imgur.com/tO3bVUt.png)
 
 
+## Technologies-used
+
+### NodeJS
+
+### Express
+
+### Mongoose
+
+### JavaScript
+
+
+## Planned for future anchancements
+
+AAU I want to add flag of each team so that even though a user haven't heard about a team, he/she will recognize it by its flag.
+
+AAU I want to be able to add comment about a team so that other people can relate
+
+AAU I want to be able to see other comment so that I can know what team people interest more on
+
+AAU I want to be able to click on details link and it will take you to the details link through API
