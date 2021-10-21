@@ -68,3 +68,13 @@ h1 {
 .overall{
   font-size: 25px;
 }
+
+.header{
+  font-family: 'Rampart One', cursive;
+  font-size: 60px;
+}
+
+.brand{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 20px;
+}

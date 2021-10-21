@@ -2,10 +2,10 @@
 <%- include('../partials/nav') %>
 
 <main>
-  <h1><%= title %></h1>
+  <h1 class="header" style="margin-top: 30px"><%= title %></h1>
   <hr>
   <h2>
-    <a href="/teams/new">Add another team</a>
+    <a style="color: #FEF5ED" href="/teams/new">Add another team</a>
   </h2>
   <hr>
 
@@ -24,10 +24,11 @@
         <td><%= team.name %></td>
         <td><%= team.players %></td>
         <td><%= team.score %></td>
-        <td><a href="/teams/<%= team._id %>/edit">EDIT</a>
+        <td><a style="color: #3E065F" href="/teams/<%= team._id %>/edit">EDIT</a></td>
+        <td> - </td>
         <td>
           <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
-            <button type="submit">Delete</button>
+            <button class="btn btn-outline-dark btn-lg" type="submit">Delete</button>
           </form>
         </td>
       </tr>

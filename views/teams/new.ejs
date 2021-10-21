@@ -2,7 +2,7 @@
 <%- include('../partials/nav') %>
 
 <main>
-    <h1><%= title %> </h1>
+    <h1 class="header" style="margin-top: 30px;"><%= title %> </h1>
     <div class="overall">
         <form action="/teams" method="post">
             <div class="mb-3">
@@ -22,7 +22,7 @@
                 <label class="form-label">Score: </label>
                 <input type="text" name="score" class="form-control" id="formGroupExampleInput">
             </div>
-            <button type="submit">Add team</button>
+            <button class="btn btn-primary btn-lg" type="submit">Add team</button>
         </form>
     </div>
 </main>
