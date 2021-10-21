@@ -4,6 +4,11 @@ This app will help you for your sports tracker teams.
 
 Using this app will held you stay on top of the world! 🚀
 
+
+## Trello link
+[Link to Trello](https://trello.com/b/9gxo99jo/unit2-project)
+
+
 ## App Usage
 
 You are required to loggin into the app in order to use all ressources available to you. You must first go through some verification with google, then you should be able to loggin after authenticated.
@@ -33,6 +38,7 @@ You also have the ability to see all users that are signed into the app, friens 
 ### Mongoose
 
 ### JavaScript
+
 
 
 ## Planned for future anchancements
