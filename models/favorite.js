@@ -3,8 +3,14 @@ import Mongoose from "mongoose";
 const Schema = Mongoose.Schema;
 
 const favoriteSchema = new Schema({
-    teamName: String,
-    addedBy: String
+    teamName: [{ 
+        type: Schema.Types.ObjectId, 
+        ref: "Team" 
+    }],
+    addedBy: [{ 
+        type: Schema.Types.ObjectId, 
+        ref: "User" 
+    }]
 }, {
     timestamps: true
 })
