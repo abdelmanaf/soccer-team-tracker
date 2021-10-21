@@ -10,6 +10,8 @@ You are required to loggin into the app in order to use all ressources available
 
 You will have the ability to update you profile information since nowadays, everyone like to use a nickname on their social media.
 
+There is a cool feature that will allow you to add a team name, players you know in the team, you have the choice to chose true or false depending if they have won their last game, and what was their last score.
+
 __Replace `<name-of-your-app-here>` in the commands below with the name of your app!__
 
 ```bash
