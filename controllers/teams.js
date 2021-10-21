@@ -30,10 +30,28 @@ function deleteBook(req, res){
         .catch(err => console.log(err));
 }
 
+function edit(req, res){
+    Team.findById(req.params.id)
+        .then(team => {
+            res.render('teams/edit', {
+                team
+            })
+        })
+}
+
+function update(req, res){
+    Team.findByIdAndUpdate(req.params.id, req.body, {new:true})
+        .then(team => {
+            res.redirect(`/teams`);
+        })
+}
+
 
 export{
     index,
     newTeam as new,
     create,
-    deleteBook as delete
+    deleteBook as delete,
+    edit,
+    update
 }

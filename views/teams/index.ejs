@@ -23,7 +23,7 @@
         <td><%= team.name %></td>
         <td><%= team.players %></td>
         <td><%= team.score %></td>
-        <td><a href="#">DETAILS</a>
+        <td><a href="/teams/<%= team._id %>/edit">EDIT</a>
         <td>
           <form action="/teams/<%= team._id %>?_method=DELETE" method="POST">
             <button type="submit">Delete</button>

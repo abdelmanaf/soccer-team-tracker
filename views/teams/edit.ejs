@@ -1,0 +1,21 @@
+<%- include('../partials/html-head') %>
+<%- include('../partials/nav') %>
+
+<main>
+    <h1>Edit Team</h1>
+    <form action="/teams/<%= team.id %>?_method=PUT" method="post">
+        <input type="text" name="name" value="<%= team.name %> ">
+        <input type="text" name="players" value="<%= team.players %> ">
+        <input type="text" name="score" value="<%= team.score %> ">
+        <button type="submit">Update</button>
+    </form>
+
+</main>
+
+<%- include('../partials/footer') %>
+
+
+
+
+
+

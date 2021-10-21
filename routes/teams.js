@@ -7,6 +7,8 @@ router.get('/', teamsCtrl.index)
 router.get('/new', teamsCtrl.new)
 router.post('/', teamsCtrl.create)
 router.delete('/:id', teamsCtrl.delete)
+router.get('/:id/edit', teamsCtrl.edit)
+router.put('/:id', teamsCtrl.update)
 
 export{
     router

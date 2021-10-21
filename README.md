@@ -1,10 +1,14 @@
-# MEN Stack with OAuth Template
+# Soccer-Teams-Tracker
 
-This is a MEN Stack template that includes OAuth.
+This app will help you for your sports tracker teams.
 
-Use this to go build things! 🚀
+Using this app will held you stay on top of the world! 🚀
 
-## To Use This Template
+## App Usage
+
+You are required to loggin into the app in order to use all ressources available to you. You must first go through some verification with google, then you should be able to loggin after authenticated.
+
+You will have the ability to update you profile information since nowadays, everyone like to use a nickname on their social media.
 
 __Replace `<name-of-your-app-here>` in the commands below with the name of your app!__
 

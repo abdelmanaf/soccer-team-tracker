@@ -45,10 +45,10 @@ function show(req, res) {
 
   function update(req, res) {
     Profile.findByIdAndUpdate(req.params.id, req.body, {new: true})
-    .then((profile) => {
+      .then((profile) => {
       res.redirect(`/profiles/${profile._id}`)
     })
-    .catch((err) => {
+      .catch((err) => {
       console.log(err)
       res.redirect('/')
     })
