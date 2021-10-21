@@ -17,7 +17,7 @@ You can then see all the team you have chosen, edit the fields if you found your
 You also have the ability to see all users that are signed into the app, friens them and unfriend them.
 
 
-![GitHub Logo](/images/app1.png)
+![GitHub Logo](https://i.imgur.com/RrL7qhn.png)
 
 <img src="https://i.imgur.com/L47kNOZ.png" alt="">
 
