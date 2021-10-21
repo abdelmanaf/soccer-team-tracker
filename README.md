@@ -57,3 +57,5 @@ AAU I want to be able to add comment about a team so that other people can relat
 AAU I want to be able to see other comment so that I can know what team people interest more on
 
 AAU I want to be able to click on details link and it will take you to the details link through API
+
+AAU I want to be able to add a team as my favorite team
