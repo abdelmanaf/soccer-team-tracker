@@ -4,6 +4,8 @@ This app will help you for your sports tracker teams.
 
 Using this app will held you stay on top of the world! 🚀
 
+For better experience, use with web browers(tablettes,laptops, destops)
+
 
 
 ## Trello link
