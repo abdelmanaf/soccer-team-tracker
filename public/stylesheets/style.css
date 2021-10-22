@@ -56,6 +56,7 @@ h1 {
   content: "";
 }
 
+
 .footer{
   text-align: center;
   font-size: 15px;
@@ -65,31 +66,51 @@ h1 {
   height: 2.5rem;
 }
 
-.overall{
-  font-size: 28px;
-}
-
-.header{
-  font-family: 'Rampart One', cursive;
-  font-size: 60px;
-}
-
-.brand{
-  font-family: 'Permanent Marker', cursive;
-  font-size: 20px;
-}
-
 .message {
-  font-family: 'Permanent Marker', cursive;
-  font-family: 'Rampart One', cursive;
-  font-size: 40px;
+  font-size: medium;
   text-align: center;
-  color:  #950101;
-  background-image: url("https://i.imgur.com/YuxlfPm.png");
-  height: 550px;
-  width: 100%;
+  color: white;
 }
 
-hr {
-  display: -moz-inline-grid;
+
+@media screen and (min-width: 850px) {
+  .overall{
+    font-size: 28px;
+  }
+
+  .header{
+    font-family: 'Rampart One', cursive;
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .brand{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+  }
+
+  .message {
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Rampart One', cursive;
+    font-size: 30px;
+    text-align: center;
+    color:  #950101;
+    background-color: lightblue;
+    /* background-image: url("https://i.imgur.com/YuxlfPm.png"); */
+    height: 550px;
+    width: 100%;
+  }
+
+  hr {
+    display: -moz-inline-grid;
+  }
+
+  .footer{
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+  }
 }
