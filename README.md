@@ -45,11 +45,13 @@ You also have the ability to see all users that are signed into the app, friens 
 
 ### Express
 
-### Mongoose
+### MongoDB
 
 ### JavaScript
 
+### Bootstrap
 
+### HTML and CSS
 
 
 ## Planned for future anchancements
