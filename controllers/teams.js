@@ -25,7 +25,7 @@ function create(req, res){
 }
 
 function deleteBook(req, res){
-    Team.findByIdAndDelete(req.params.id,)
+    Team.findByIdAndDelete(req.params.id)
         .then(result => res.redirect('/teams'))
         .catch(err => console.log(err));
 }
